@@ -16,6 +16,9 @@
 		ED313BCA25A90D5C00FB6D26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED313BC825A90D5C00FB6D26 /* LaunchScreen.storyboard */; };
 		ED313BD525A90D5C00FB6D26 /* Workout_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED313BD425A90D5C00FB6D26 /* Workout_TrackerTests.swift */; };
 		ED313BE025A90D5D00FB6D26 /* Workout_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED313BDF25A90D5D00FB6D26 /* Workout_TrackerUITests.swift */; };
+		EDA517F125B27A8D00ED0D0F /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA517F025B27A8D00ED0D0F /* Workout.swift */; };
+		EDA517F625B27CCC00ED0D0F /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA517F525B27CCC00ED0D0F /* Exercise.swift */; };
+		EDA517FB25B2805300ED0D0F /* ExerciseDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA517FA25B2805300ED0D0F /* ExerciseDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		ED313BDB25A90D5D00FB6D26 /* Workout TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Workout TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED313BDF25A90D5D00FB6D26 /* Workout_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout_TrackerUITests.swift; sourceTree = "<group>"; };
 		ED313BE125A90D5D00FB6D26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA517F025B27A8D00ED0D0F /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		EDA517F525B27CCC00ED0D0F /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		EDA517FA25B2805300ED0D0F /* ExerciseDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		ED313BB925A90D5A00FB6D26 /* Workout Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				EDA517EF25B27A3400ED0D0F /* Source Code */,
 				ED313BBA25A90D5A00FB6D26 /* AppDelegate.swift */,
 				ED313BBC25A90D5A00FB6D26 /* SceneDelegate.swift */,
 				ED313BBE25A90D5A00FB6D26 /* ViewController.swift */,
@@ -129,6 +136,16 @@
 				ED313BE125A90D5D00FB6D26 /* Info.plist */,
 			);
 			path = "Workout TrackerUITests";
+			sourceTree = "<group>";
+		};
+		EDA517EF25B27A3400ED0D0F /* Source Code */ = {
+			isa = PBXGroup;
+			children = (
+				EDA517F025B27A8D00ED0D0F /* Workout.swift */,
+				EDA517F525B27CCC00ED0D0F /* Exercise.swift */,
+				EDA517FA25B2805300ED0D0F /* ExerciseDetails.swift */,
+			);
+			path = "Source Code";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDA517FB25B2805300ED0D0F /* ExerciseDetails.swift in Sources */,
 				ED313BBF25A90D5A00FB6D26 /* ViewController.swift in Sources */,
+				EDA517F625B27CCC00ED0D0F /* Exercise.swift in Sources */,
 				ED313BBB25A90D5A00FB6D26 /* AppDelegate.swift in Sources */,
 				ED313BC525A90D5A00FB6D26 /* Workout_Tracker.xcdatamodeld in Sources */,
 				ED313BBD25A90D5A00FB6D26 /* SceneDelegate.swift in Sources */,
+				EDA517F125B27A8D00ED0D0F /* Workout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
